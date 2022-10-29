@@ -53,4 +53,5 @@ for i in range(0, len(rows)):
     
 restaurant_df = pd.DataFrame(row_list, columns=name_list)
 
-restaurant_df.to_csv('restaurant.csv', encoding='utf-8-sig')
+#restaurant_df.to_csv('restaurant.csv', encoding='utf-8-sig')
+restaurant_df.to_excel('restaurant.xlsx')
